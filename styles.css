@@ -1,0 +1,101 @@
+body {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #00aaff;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+.card {
+  background-color: #26264f;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #303060;
+}
+
+.service-card,
+.project-card {
+  background-color: #303060;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover,
+.project-card:hover {
+  transform: scale(1.05);
+  background-color: #404070;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #00aaff;
+  border-radius: 5px;
+  background-color: #1a1a2e;
+  color: white;
+  width: 200px;
+}
+
+textarea {
+  resize: none;
+  height: 40px;
+}
+
+.button {
+  background-color: #00aaff;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #0088cc;
+}
