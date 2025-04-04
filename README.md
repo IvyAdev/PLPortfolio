@@ -4,4 +4,3 @@ Technologies Used
 HTML
 CSS
 JavaScript
-[Visit my portfolio](https://ivyadev.github.io/PLPortfolio)
